@@ -1,0 +1,96 @@
+.maindiv{
+    display: flex;
+    margin-top: 100px;
+    padding: 10px;
+}
+.child{
+    position: relative;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.parent{
+    display: flex;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    height: 425px;
+}
+.text{
+    position: absolute;
+    top: 350px;
+    color: white;
+    left: 40px;
+}
+.title{
+    position: absolute;
+    top: 320px;
+    left: 30px;
+    color: white;
+}
+.child1{
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.text1{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    color: white;
+}
+.title1{
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+}
+.redius{
+    border-radius: 5px;
+}
+.child2{
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:400px) {
+    .maindiv{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .child{
+        margin-left: 10px;
+    }
+    .child img{
+        width: 300px;
+        height: 200px;
+    }
+    .text{
+        margin-top: 0px;
+    }
+    .child1 img{
+        width: 300px;
+        height: 200px;
+    }
+   .child2{
+       margin-bottom: 50px;
+   }
+   .child2 img {
+       width: 300px;
+       height: 200px;
+   }
+   .title1{
+       margin-top: 80px;
+   }
+   .text1{
+       margin-top: 10px;
+   }
+   .title{
+       position: absolute;
+       top: 150px;
+   }
+   .text{
+       position: absolute;
+       top: 160px;
+   }
+}
