@@ -21,11 +21,15 @@
     padding: 5px;
 }
 .button{
-    color: white;
-    background-color: aqua;
     border-radius: 5px;
-    border: 0px;
     padding: 8px;
+    border:  1px solid black;
+    color: black;
+    background-color: white;
+}
+.button:hover{
+    background-color: aqua;
+    color: antiquewhite;
 }
 
 @media screen and (max-width:400px) {

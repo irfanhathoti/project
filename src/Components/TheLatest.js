@@ -7,7 +7,7 @@ const TheLatest = () => {
     const [data] = useContext(Datacontext);
     return (
         <div className='container' >
-            <h2 style={{ marginTop: '50px' }}>Top Today News</h2>
+            <h2 style={{ marginTop: '50px' }}>The Latest</h2>
 
 
             <div className='row mymainro' >
